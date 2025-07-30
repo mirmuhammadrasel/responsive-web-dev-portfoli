@@ -214,13 +214,8 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     /* width 100% dea hoile jototuku jayga drkr tototuku jayga auto ney nebe & border none dea hoile box a click korle black clr hbe */
 }
 
-/* responsive media query */
-
- .hide{
-    display: none;
- }
-
- @media screen and (max-width: 576px){
+/* responsive media query small device*/
+@media screen and (max-width: 576px){
     
     .skills-container, 
     .resume-container, 
@@ -264,7 +259,14 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     }
     .banner-title{
         font: size 10px;
-        /* Muhammaad Rasel likhata choto korar jnno use kora hoicey eta */
+        /* Muhammaad Rasel likhata choto korar jnno use kora hoicey eta but muhammad likhatar jnno problem hoar karone MD use korci pore */
     }
     
+ }
+
+ /* For Tbalet responsive media query  */
+ @media screen and (min-width: 576px) and (max-width: 990px) {
+    .banner{
+    flex-direction: column;
+    }
  }
