@@ -1,0 +1,270 @@
+nav ul{
+    display: flex;
+    /* nav ul etar agea (.) dea lageinai kn  */
+    /* gap: 400px; */
+    align-items: center;
+    /* button er modhhe style korar karone ektu upore chole gecehe ty align-items center dea lagse  */
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; default bhabe 400 dhore nibe*/
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-02{
+    color: #474747;
+}
+.btn-primary{
+    background-color:#FD6E0A;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 15px;
+    /* border-color:antiquewhite; */
+    border:none;
+}
+
+.shared-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    /* kono jayga thke color code copy korle seta boshanor agea # dete hbe  */
+}
+.section-description{
+    font: size 18px;
+    font-weight:bold;
+    color:  #757575;
+}
+ 
+.text-center{
+    text-align: center;
+}
+.common-bg-clr{
+    background-color: #FFF8F3;
+    /* secondary-bg likhse ei jygata k ph & header,main er about section tag a,footer a cls er modhheadd korche */
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    /* url(../) bracket er modhhe''dyea lagbe trpor jeta dekhaici cmnt tag a orkm vabe likhle image folder ashbe */
+    background-repeat: no-repeat;
+    /* uporer eta nah dele ek e chobi virtically barbar ashtbe */
+    background-position: top left, bottom right;
+
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    /* align-items: center; eta deyar karone Mary ebong nav er object gulh(portfolio,blog,Hire me butto) ek line borabor eshe porbe(virticle borabor center hye jabe )  */
+    justify-content: space-between;
+    /* *important */
+    /* justify-content: space-between; eta onk importanr eta korar karonei h2 tag ermary ar ul er li tag er element gulor majhe shundor kore gap chole esheche */
+    margin: 0px 100px ;
+    /* upore margin deaar karone mary and nav element ulo upore 50px gap hoice ar leaft 7 right a 100px hoice */
+
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    /* important */
+    margin-right: 51px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner styles */
+.banner{
+    
+    /* ei class tah img & banner-contenet er main tag echarao er modhhe aro class ache but oi cls gulo amr imagea ar title mane likha gulake pashapashi boshanor khetre kaj a ashbenh */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-between; image ar pasher tect gular majhe sapce hoicey  *important */
+    margin: 0 38px 0 230px;
+    
+}
+.banner-content{
+    max-width: 580px ;
+    
+}
+.banner-greetings{
+    font: weight 600px;
+    /* semi-bold=600px */
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 300px;
+}
+.banner-img{
+    width:580px;
+    height: 676px;
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    /* main deyar agea (.)dea lagbenh karon eta ekta body tag */
+
+ }
+  
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    /* margin-bottom deyar karone js,react,nodejs mane caard gulr niche ektu space hoicey */
+}
+
+/* about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+    /* magrin-top eta heder box er sathe about box er modhhe gap make korche  */
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+   
+}
+ /* main styles */
+
+
+.item-description{
+    font-weight: bold;
+    
+}
+/* Skills Section */
+.skills-container{
+    display: flex;
+    gap: 20px;
+    
+}
+.skill:hover{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    background-color: #FFF8F3;
+    padding: 30px;
+    /* pading 30px deyar karonei card pop-up hochhe */
+    
+}
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    /* gap use korar karone hr mane horizontal line gulo devide hoicey + likha gulao */
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+    
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    margin-top:50px ;
+}
+
+/* footer section */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 115px;
+
+}
+.footer-column{
+    width: 50%;
+    /* 2ta column 50/50jayga neye nebe eta korar karne */
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:none;
+    /* width 100% dea hoile jototuku jayga drkr tototuku jayga auto ney nebe & border none dea hoile box a click korle black clr hbe */
+}
+
+/* responsive media query */
+
+ .hide{
+    display: none;
+ }
+
+ @media screen and (max-width: 576px){
+    
+    .skills-container, 
+    .resume-container, 
+    footer,
+    .banner,
+    nav,
+    nav > ul,
+     /*nav > ul means ul into nav  */
+    .btn-primary,
+    .about-items{
+    flex-direction: column;
+    }
+    .btn-primary{
+    margin-bottom: 20px;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    footer, .about{
+        padding: 20px;
+    }
+    .footer-column{
+    width: 100%;
+    /* 100% deleo name,email, ei boxgulhr full size cvr hoiceenh ektu dan dike kete jachhe eta thik korar jnno uporer padding 0px korle hoar kotha but hoynai ejnno padding 20kore abr calc korte hbe nicher moto kore*/
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .header{
+        background-image: none;
+        /* developer lekhata remove hye jabe */
+    }
+    footer input[type="text"], 
+    footer input[type="email"], 
+    footer textarea{
+        width: calc(100% - 40px);
+        /* *important part* */
+    }
+    .banner-title{
+        font: size 10px;
+        /* Muhammaad Rasel likhata choto korar jnno use kora hoicey eta */
+    }
+    
+ }
